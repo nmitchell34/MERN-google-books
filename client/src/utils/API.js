@@ -1,7 +1,5 @@
-import axios from "axios";
 import Axios from "axios";
 
-const APIkey = "AIzaSyDBrljBHCaJ1VrrzLdhnrrz-_ZQv5UY2y8";
 export default {
   // Gets all books
   getBooks: function (search) {
