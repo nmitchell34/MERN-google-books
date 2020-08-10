@@ -3,16 +3,16 @@ import React from "react";
 const searchForm = () => {
   return (
     <div className="container">
-      <form>
+      <form >
         <div className="form-group">
-          <label for="exampleInputEmail1">What book are you looking for?</label>
+          <label for="bookSearch">What book are you looking for?</label>
           <input
-            type="email"
+            type="text"
             className="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
+            id="bookSearch"
+            aria-describedby="BookSearch"
           />
-          <small id="emailHelp" className="form-text text-muted">
+          <small id="bookMesage" className="form-text text-muted">
             Happy Reading!
           </small>
         </div>
