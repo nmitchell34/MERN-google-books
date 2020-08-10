@@ -10,6 +10,8 @@ const Search = () => {
   function handleFormSubmit(event) {
     event.preventDefault();
     API.getBooks(searchQuery);
+    // setSearchQuery("")
+
   }
 
   function handleInputChange(event) {
