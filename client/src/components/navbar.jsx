@@ -22,12 +22,12 @@ const navbar = () => {
           <ul className="navbar-nav">
             <li className="nav-item active">
               <a className="nav-link" href="#">
-                Saved <span className="sr-only">(current)</span>
+                Search <span className="sr-only">(current)</span>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Search
+                Saved
               </a>
             </li>
           </ul>

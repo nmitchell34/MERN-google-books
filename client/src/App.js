@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import Axios from "axios";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/navbar";
+import Jumbotron from "./components/jumbotron"
+import Search from "./pages/search"
+import Saved from "./pages/saved"
 
 function App() {
   useEffect(() => {});
@@ -9,7 +12,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
+        <Route exact path="/" component={Search}/>
+        <Route exact path='/saved' component={Saved}/>
       </Router>
     </div>
   );
