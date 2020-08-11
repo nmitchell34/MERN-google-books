@@ -20,8 +20,8 @@
   
   
   ## Usage 
-  To use this project. Search for any book you want with the search bar in the search page. Click save to save the book for the future.
-  ![MERN_google_books]("./2020-08-10.png")
+  To use this project. Search for any book you want with the search bar in the search page. Click save to save the book for the future.  
+  ![google_books](./Images/readmeImg.png)
   
   ## Contributing
   Please feel free to contribute. Message me at my email or github and I will gladly work with you.
