@@ -11,10 +11,11 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
+      <Search />
+      {/* <Router>
         <Route exact path="/" component={Search}/>
         <Route exact path='/saved' component={Saved}/>
-      </Router>
+      </Router> */}
     </div>
   );
 }
